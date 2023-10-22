@@ -1,7 +1,4 @@
 "use client";
-
-
-
 export default function Home() {
 
   return (
@@ -14,10 +11,8 @@ export default function Home() {
           { name: 'c' },
           { name: 'a'}
         ];
-
         const sorted = _.orderBy(users, ['name']);
         console.log(sorted);
-        
       }}>show</button>
     </>
   )
